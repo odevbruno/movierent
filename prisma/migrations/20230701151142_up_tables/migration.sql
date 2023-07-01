@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "movies" ALTER COLUMN "price_rent" SET DATA TYPE DOUBLE PRECISION,
+ALTER COLUMN "release_date" SET DATA TYPE TEXT;

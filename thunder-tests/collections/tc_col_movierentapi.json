@@ -1,0 +1,88 @@
+{
+    "_id": "758883f2-1641-45ce-87c4-0191f621a0fc",
+    "colName": "movieRentAPI",
+    "created": "2023-07-01T14:58:40.862Z",
+    "sortNum": 20000,
+    "folders": [
+        {
+            "_id": "99a9665b-479c-4c78-a9d1-342f35017c86",
+            "name": "users",
+            "containerId": "",
+            "created": "2023-07-01T16:51:45.174Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "0e38de2d-1557-4ea9-ab45-b9e410a35357",
+            "name": "movies",
+            "containerId": "",
+            "created": "2023-07-01T16:51:55.766Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "0ce753a9-2cf5-4b58-a894-880daf0d0a1d",
+            "name": "rentMovie",
+            "containerId": "",
+            "created": "2023-07-01T16:52:05.987Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "a6521bcb-2579-4aba-9e8a-2bf72f0b28b8",
+            "colId": "758883f2-1641-45ce-87c4-0191f621a0fc",
+            "containerId": "99a9665b-479c-4c78-a9d1-342f35017c86",
+            "name": "Register",
+            "url": "http://localhost:5000/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-01T14:58:40.866Z",
+            "modified": "2023-07-01T16:47:45.309Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"name\":\"Bruno Oliveira\",\n\"phone\":\"99 9 8203-6244\",\n\"password\": \"123123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "145cea8b-fb31-4c97-9bcb-7f22e4c433c6",
+            "colId": "758883f2-1641-45ce-87c4-0191f621a0fc",
+            "containerId": "0e38de2d-1557-4ea9-ab45-b9e410a35357",
+            "name": "Register",
+            "url": "http://localhost:5000/register/movie",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-01T14:59:14.448Z",
+            "modified": "2023-07-01T15:49:29.166Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Filme Q\",\n  \"price_rent\": \"12.20\",\n  \"release_date\": \"2022-03-15\",\n  \"duration_time\": 120\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "daa8409f-6ab2-402a-b770-88f59805f1ba",
+            "colId": "758883f2-1641-45ce-87c4-0191f621a0fc",
+            "containerId": "0ce753a9-2cf5-4b58-a894-880daf0d0a1d",
+            "name": "Register",
+            "url": "http://localhost:5000/register/rent",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-01T16:51:28.046Z",
+            "modified": "2023-07-01T16:53:44.674Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"userId\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI3MGJlMTM2ZS03MjIwLTQ2OTItOTUyYS01MGUwZTdlNjBkYjgiLCJpYXQiOjE2ODgyMzAwNjUsImV4cCI6MTY5MDgyMjA2NX0.7CGnL0jDv5CPPkQ_P_T4CJHDPaUURJax7A-Hbqhralk\",\n   \"movieId\":\"2b7fe47b-8931-48c5-886c-85ddc0cb3213\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

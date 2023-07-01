@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Filme A",
+    "price_rent": 10.99,
+    "release_date": "2022-03-15",
+    "duration_time": 120
+  },
+  {
+    "name": "Filme B",
+    "price_rent": 7.99,
+    "release_date": "2021-11-27",
+    "duration_time": 95
+  },
+  {
+    "name": "Filme C",
+    "price_rent": 12.49,
+    "release_date": "2023-01-05",
+    "duration_time": 150
+  },
+  {
+    "name": "Filme D",
+    "price_rent": 8.99,
+    "release_date": "2022-06-10",
+    "duration_time": 105
+  },
+  {
+    "name": "Filme E",
+    "price_rent": 11.79,
+    "release_date": "2023-04-20",
+    "duration_time": 135
+  }
+]
